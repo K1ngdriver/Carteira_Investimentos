@@ -7,8 +7,8 @@ class CalculadoraReservaEmergencia:
 
     def obter_dados(self):
         self.salario = float(input("Quanto você ganha bruto por mês? "))
-        self.despesasfixas = float(input("Quanto você gasta por mês em despesas essenciais? "))
-        self.despesasvariaveis = float(input("Quanto você gasta por mês em despesas não essenciais? "))
+        self.despesasfixas = float(input("Quanto você gasta por mês em despesas fixas? "))
+        self.despesasvariaveis = float(input("Quanto você gasta por mês em despesas variáveis? "))
 
     def calcular_reserva(self):
         despesas = self.despesasfixas + self.despesasvariaveis
